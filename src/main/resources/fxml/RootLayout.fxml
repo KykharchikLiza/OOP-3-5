@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.lab4.controller.RootController">
+    <top>
+        <AnchorPane BorderPane.alignment="CENTER">
+            <MenuBar AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <Menu mnemonicParsing="false" text="Файл...">
+                    <MenuItem mnemonicParsing="false" onAction="#saveAs" text="Сохранить как" />
+                    <MenuItem mnemonicParsing="false" onAction="#load" text="Загрузить" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Машины">
+                    <MenuItem mnemonicParsing="false" onAction="#onShowSedans" text="Легковые" />
+                    <MenuItem mnemonicParsing="false" onAction="#onShowTrucks" text="Грузовые" />
+                    <MenuItem mnemonicParsing="false" onAction="#onShowBuses" text="Автобусы" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Корабли">
+                    <MenuItem mnemonicParsing="false" onAction="#onShowCargoShips" text="Грузовые корабли" />
+                    <MenuItem mnemonicParsing="false" onAction="#onShowCruiseLiners" text="Круизные лайнеры" />
+                    <MenuItem mnemonicParsing="false" onAction="#onShowSailBoats" text="Парусные корабли" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Редактировать">
+                    <MenuItem mnemonicParsing="false" onAction="#onAddMenu" text="Добавить" />
+                    <MenuItem mnemonicParsing="false" onAction="#onEditMenu" text="Изменить" />
+                    <MenuItem mnemonicParsing="false" onAction="#onDeleteMenu" text="Удалить" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Сериализация">
+                    <MenuItem mnemonicParsing="false" onAction="#serialize" text="Бинарная" />
+                    <MenuItem mnemonicParsing="false" onAction="#serializeXML" text="XML" />
+                    <MenuItem mnemonicParsing="false" onAction="#serializeJSON" text="JSON" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Десериализация">
+                    <MenuItem mnemonicParsing="false" onAction="#deserialize" text="Бинарная" />
+                    <MenuItem mnemonicParsing="false" onAction="#deserializeXML" text="XML" />
+                    <MenuItem mnemonicParsing="false" onAction="#deserializeJSON" text="JSON" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Паттерны">
+                    <MenuItem mnemonicParsing="false" onAction="#onAdapter" text="Адаптер" />
+                    <MenuItem mnemonicParsing="false" onAction="#onDecorator" text="Декоратор" />
+                    <MenuItem mnemonicParsing="false" onAction="#onCommand" text="Комманда" />
+                </Menu>
+            </MenuBar>
+        </AnchorPane>
+    </top>
+</BorderPane>

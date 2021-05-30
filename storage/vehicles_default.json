@@ -1,0 +1,270 @@
+{
+  "vehicles" : [ {
+    "sedan" : {
+      "serialNumber" : "j24er-werwer-3fsd",
+      "speed" : 0.0,
+      "year" : 2017,
+      "brand" : "BMW",
+      "engine" : {
+        "engineCapacity" : 30,
+        "enginePower" : 47
+      },
+      "axisCount" : 0,
+      "color" : "Red",
+      "doors" : 4,
+      "carBodyType" : "SEDAN"
+    }
+  }, {
+    "sedan" : {
+      "serialNumber" : "wer233-gbdsoc34",
+      "speed" : 0.0,
+      "year" : 2016,
+      "brand" : "Audi",
+      "engine" : {
+        "engineCapacity" : 31,
+        "enginePower" : 113
+      },
+      "axisCount" : 0,
+      "color" : "White",
+      "doors" : 4,
+      "carBodyType" : "WAGON"
+    }
+  }, {
+    "sedan" : {
+      "serialNumber" : "dsfds223-vsdsd34",
+      "speed" : 0.0,
+      "year" : 2021,
+      "brand" : "Renault",
+      "engine" : {
+        "engineCapacity" : 12,
+        "enginePower" : 71
+      },
+      "axisCount" : 0,
+      "color" : "Green",
+      "doors" : 2,
+      "carBodyType" : "CABRIOLET"
+    }
+  }, {
+    "truck" : {
+      "serialNumber" : "hgkff12-fdbdfb4",
+      "speed" : 0.0,
+      "year" : 2018,
+      "brand" : "Volvo",
+      "engine" : {
+        "engineCapacity" : 26,
+        "enginePower" : 51
+      },
+      "axisCount" : 3,
+      "color" : "Blue",
+      "doors" : 0,
+      "maxCargoWeight" : 64,
+      "cargoWeight" : 0
+    }
+  }, {
+    "truck" : {
+      "serialNumber" : "ugdfg12-tgbdfd23",
+      "speed" : 0.0,
+      "year" : 2020,
+      "brand" : "MAN",
+      "engine" : {
+        "engineCapacity" : 21,
+        "enginePower" : 25
+      },
+      "axisCount" : 2,
+      "color" : "Grey",
+      "doors" : 0,
+      "maxCargoWeight" : 21,
+      "cargoWeight" : 0
+    }
+  }, {
+    "truck" : {
+      "serialNumber" : "ireg234-jcxd34",
+      "speed" : 0.0,
+      "year" : 2019,
+      "brand" : "Mersedes",
+      "engine" : {
+        "engineCapacity" : 28,
+        "enginePower" : 25
+      },
+      "axisCount" : 4,
+      "color" : "Red",
+      "doors" : 0,
+      "maxCargoWeight" : 36,
+      "cargoWeight" : 0
+    }
+  }, {
+    "bus" : {
+      "serialNumber" : "kbdfds12-fdbvd",
+      "speed" : 0.0,
+      "year" : 2016,
+      "brand" : "MAZ",
+      "engine" : {
+        "engineCapacity" : 23,
+        "enginePower" : 26
+      },
+      "axisCount" : 3,
+      "color" : "Yellow",
+      "doors" : 4,
+      "maxPassengers" : 21,
+      "passengers" : 0
+    }
+  }, {
+    "bus" : {
+      "serialNumber" : "dsgsd123-efsdf",
+      "speed" : 0.0,
+      "year" : 2009,
+      "brand" : "Scania",
+      "engine" : {
+        "engineCapacity" : 32,
+        "enginePower" : 30
+      },
+      "axisCount" : 2,
+      "color" : "Black",
+      "doors" : 3,
+      "maxPassengers" : 28,
+      "passengers" : 0
+    }
+  }, {
+    "bus" : {
+      "serialNumber" : "sgegwe12-edsv34",
+      "speed" : 0.0,
+      "year" : 2021,
+      "brand" : "MAN",
+      "engine" : {
+        "engineCapacity" : 34,
+        "enginePower" : 21
+      },
+      "axisCount" : 3,
+      "color" : "Green",
+      "doors" : 5,
+      "maxPassengers" : 26,
+      "passengers" : 0
+    }
+  }, {
+    "cargoShip" : {
+      "serialNumber" : "ffddf12-sdvd",
+      "speed" : 0.0,
+      "year" : 2018,
+      "brand" : "BigStar",
+      "engine" : {
+        "engineCapacity" : 20,
+        "enginePower" : 25
+      },
+      "crew" : 24,
+      "displacement" : 24,
+      "deadweight" : 20,
+      "cargoWeight" : 0
+    }
+  }, {
+    "cargoShip" : {
+      "serialNumber" : "gddsv-sdgfsd12",
+      "speed" : 0.0,
+      "year" : 2010,
+      "brand" : "NordShip",
+      "engine" : {
+        "engineCapacity" : 30,
+        "enginePower" : 16
+      },
+      "crew" : 29,
+      "displacement" : 22,
+      "deadweight" : 18,
+      "cargoWeight" : 0
+    }
+  }, {
+    "cargoShip" : {
+      "serialNumber" : "ewfsf12-dsfsvsdv",
+      "speed" : 0.0,
+      "year" : 2021,
+      "brand" : "EvenGreen",
+      "engine" : {
+        "engineCapacity" : 28,
+        "enginePower" : 32
+      },
+      "crew" : 35,
+      "displacement" : 23,
+      "deadweight" : 23,
+      "cargoWeight" : 0
+    }
+  }, {
+    "cruiseLiner" : {
+      "serialNumber" : "hfdfdfl12-dsvdsv",
+      "speed" : 0.0,
+      "year" : 2003,
+      "brand" : "BigLiner",
+      "engine" : {
+        "engineCapacity" : 40,
+        "enginePower" : 31
+      },
+      "crew" : 31,
+      "displacement" : 35,
+      "maxPassengers" : 36,
+      "passengers" : 0,
+      "decks" : 5
+    }
+  }, {
+    "cruiseLiner" : {
+      "serialNumber" : "3fddsfsd-3dsfsd",
+      "speed" : 0.0,
+      "year" : 2014,
+      "brand" : "StarLiner",
+      "engine" : {
+        "engineCapacity" : 28,
+        "enginePower" : 23
+      },
+      "crew" : 24,
+      "displacement" : 21,
+      "maxPassengers" : 23,
+      "passengers" : 0,
+      "decks" : 4
+    }
+  }, {
+    "cruiseLiner" : {
+      "serialNumber" : "sdfsd12-sdv",
+      "speed" : 0.0,
+      "year" : 2009,
+      "brand" : "NordLiner",
+      "engine" : {
+        "engineCapacity" : 25,
+        "enginePower" : 26
+      },
+      "crew" : 36,
+      "displacement" : 32,
+      "maxPassengers" : 31,
+      "passengers" : 0,
+      "decks" : 6
+    }
+  }, {
+    "sailBoat" : {
+      "serialNumber" : "drgdg12-gdfdfv",
+      "speed" : 0.0,
+      "year" : 2010,
+      "brand" : "NordBoat",
+      "engine" : null,
+      "crew" : 32,
+      "displacement" : 18,
+      "masts" : 5
+    }
+  }, {
+    "sailBoat" : {
+      "serialNumber" : "dfbdfb12",
+      "speed" : 0.0,
+      "year" : 2005,
+      "brand" : "StarShip",
+      "engine" : null,
+      "crew" : 33,
+      "displacement" : 47,
+      "masts" : 4
+    }
+  }, {
+    "sailBoat" : {
+      "serialNumber" : "fsdv12-dfbd87",
+      "speed" : 0.0,
+      "year" : 2007,
+      "brand" : "StarBoat",
+      "engine" : null,
+      "crew" : 62,
+      "displacement" : 26,
+      "masts" : 6
+    }
+  } ]
+}

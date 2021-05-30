@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.oop.lab4.controller.TruckEditDialogController">
+    <VBox spacing="20.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0"
+          AnchorPane.topAnchor="20.0">
+        <GridPane>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="200.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <Label text="Год выпуска" GridPane.rowIndex="2"/>
+            <Label text="Серийный номер"/>
+            <Label text="Модель" GridPane.rowIndex="1"/>
+            <Label text="Цвет" GridPane.rowIndex="3"/>
+            <Label text="Число осей" GridPane.rowIndex="4"/>
+            <StackPane GridPane.columnIndex="1" GridPane.hgrow="SOMETIMES">
+                <TextField fx:id="serialIdField" prefWidth="200.0"/>
+                <Label fx:id="serialIdLabel"/>
+            </StackPane>
+            <TextField fx:id="colorField" prefWidth="200.0" GridPane.columnIndex="1" GridPane.hgrow="SOMETIMES"
+                       GridPane.rowIndex="3"/>
+            <TextField fx:id="brandField" prefWidth="200.0" GridPane.columnIndex="1" GridPane.hgrow="SOMETIMES"
+                       GridPane.rowIndex="1"/>
+            <Spinner fx:id="yearField" max="2100" min="0" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+            <Spinner fx:id="axisField" max="20" min="0" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+            <Label text="Грузопоъёмность" GridPane.rowIndex="5"/>
+            <Spinner fx:id="maxCargoField" max="1000" min="0" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+            <Label text="Мощность" GridPane.rowIndex="6"/>
+            <Label text="Объём двигателя" GridPane.rowIndex="7"/>
+            <Spinner fx:id="powerField" max="1000" min="0" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+            <Spinner fx:id="capacityField" max="1000" min="0" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+        </GridPane>
+        <Label fx:id="warningLabel" text="Warining" textFill="red" visible="false"/>
+        <ButtonBar>
+            <buttons>
+                <Button mnemonicParsing="false" onAction="#onOkBtn" text="OK"/>
+                <Button mnemonicParsing="false" onAction="#onCancelBtn" text="Отмена"/>
+            </buttons>
+        </ButtonBar>
+    </VBox>
+</AnchorPane>
